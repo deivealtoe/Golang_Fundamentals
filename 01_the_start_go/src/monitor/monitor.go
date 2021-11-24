@@ -5,13 +5,13 @@ import "os"
 import "net/http"
 
 func main() {
-	showMenu()
+	ShowMenu()
 
-	choice := readChoice()
+	choice := ReadChoice()
 
 	switch choice {
 		case 1:
-			startMonitor()
+			StartMonitor()
 		case 2:
 			fmt.Println("Logs...")
 		case 0:
@@ -23,13 +23,13 @@ func main() {
 	}
 }
 
-func showMenu() {
+func ShowMenu() {
 	fmt.Println("1- Start")
 	fmt.Println("2- Show logs")
 	fmt.Println("0- Exit")
 }
 
-func readChoice() int {
+func ReadChoice() int {
 	fmt.Print("Choose: ")
 
 	var choice int
@@ -40,10 +40,13 @@ func readChoice() int {
 	return choice
 }
 
-func startMonitor() {
+func StartMonitor() {
 	fmt.Println("Starting...")
 
 	site := "https://www.alura.com.br"
 	response, error := http.Get(site)
-	
+
+	fmt.Println(response.Status)
+	fmt.Println()
+	fmt.Println(error)
 }

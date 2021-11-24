@@ -5,21 +5,30 @@ import "os"
 import "net/http"
 
 func main() {
-	ShowMenu()
+	for {
+		ShowMenu()
 
-	choice := ReadChoice()
+		var sites [4]string
+		sites[0] = "https://random-status-code.herokuapp.com/"
+		sites[1] = "https://random-status-code.herokuapp.com/"
+		sites[2] = "https://random-status-code.herokuapp.com/"
 
-	switch choice {
-		case 1:
-			StartMonitor()
-		case 2:
-			fmt.Println("Logs...")
-		case 0:
-			fmt.Println("See ya...")
-			os.Exit(0)
-		default:
-			fmt.Println("Invalid choice!")
-			os.Exit(-1)
+		fmt.Println(sites[3])
+
+		choice := ReadChoice()
+	
+		switch choice {
+			case 1:
+				StartMonitor()
+			case 2:
+				fmt.Println("Logs...")
+			case 0:
+				fmt.Println("See ya...")
+				os.Exit(0)
+			default:
+				fmt.Println("Invalid choice!")
+				os.Exit(-1)
+		}
 	}
 }
 
@@ -43,10 +52,16 @@ func ReadChoice() int {
 func StartMonitor() {
 	fmt.Println("Starting...")
 
-	site := "https://www.alura.com.br"
-	response, error := http.Get(site)
+	site := "https://random-status-code.herokuapp.com/"
+	response, _ := http.Get(site)
 
-	fmt.Println(response.Status)
-	fmt.Println()
-	fmt.Println(error)
+	responseStatusCode := response.StatusCode
+
+	if responseStatusCode == 200 {
+		fmt.Println("Site:", site, "was loaded with success!")
+	} else {
+		fmt.Println("There is a problem with the site:", site)
+	}
+
+	fmt.Println("The status code was", responseStatusCode)
 }

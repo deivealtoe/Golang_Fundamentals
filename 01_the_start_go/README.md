@@ -24,3 +24,24 @@
 - At if statements, we can use only boolean values
 - We don't need to use ```break``` in switch cases, we can use though..
 - String comparissons are case sensitive
+- In Go, functions can return 2 values
+  - If we don't want to receive some of the values, we can ignore it using underscore ```_```. It tells Go to ignore it
+  - ```
+    func main() {
+        name, age := ReturnNameAndAge()
+  
+        fmt.Println("Hello " + name + "! You are", age, "years old, right?")
+    }
+
+    func ReturnNameAndAge() (string, int) {
+        name := "Silvia"
+        age := 26
+
+        return name, age
+    }
+    ```
+- Go doesnt have ```while``` '-' it only has ```for```
+  - If we need a infinit loop, eu can use ```for {  }```
+  - It will run until eu ```ctrl + c``` it
+- Arrays in go have a fixed size ```var statesArray [4]string```. We can assign a value like so ```statesArray[3] = "ES"```
+- 

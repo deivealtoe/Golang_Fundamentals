@@ -1,8 +1,17 @@
 package main
 
-import "fmt"
-import "os"
-import "net/http"
+import (
+	"bufio"
+	"fmt"
+	"io"
+	"net/http"
+	"os"
+	"time"
+	"strings"
+)
+
+const amountOfTry = 3
+const secondsToWaitBeforeNewTest = 4
 
 func main() {
 	for {
@@ -52,16 +61,71 @@ func ReadChoice() int {
 func StartMonitor() {
 	fmt.Println("Starting...")
 
-	site := "https://random-status-code.herokuapp.com/"
-	response, _ := http.Get(site)
+	//sites := []string { "https://random-status-code.herokuapp.com/", "https://www.alura.com.br", "https://www.caelum.com.br" }
+	sites := ReadSitesFile();
 
-	responseStatusCode := response.StatusCode
+	for _, site := range(sites) {
+		for i := 0; i < amountOfTry; i++ {
+			fmt.Println(BuildMessage(site))
 
-	if responseStatusCode == 200 {
-		fmt.Println("Site:", site, "was loaded with success!")
-	} else {
-		fmt.Println("There is a problem with the site:", site)
+			time.Sleep(secondsToWaitBeforeNewTest * time.Second)
+		}
+	}
+}
+
+func BuildMessage(site string) string {
+	siteStatusCode := GetSiteStatusCode(site)
+
+	var message string = "Testing site: " + site
+
+	message += ". " + GetTreatedMessage(siteStatusCode)
+
+	return message
+}
+
+func GetSiteStatusCode(site string) int {
+	response, err := http.Get(site)
+
+	if err != nil {
+		fmt.Println("An error had ocurred trying to make a Get request to", site, err)
 	}
 
-	fmt.Println("The status code was", responseStatusCode)
+	return response.StatusCode
+}
+
+func GetTreatedMessage(responseStatusCode int) string {
+	var message string
+
+	if responseStatusCode == 200 {
+		message = "Success!"
+	} else {
+		message = "Fail!"
+	}
+
+	return message
+}
+
+func ReadSitesFile() []string {
+	var sites []string
+
+	fileOpen, err := os.Open("sites.txt")
+	if err != nil {
+		fmt.Println("An error occurred trying to open specified file", err)
+	}
+
+	reader := bufio.NewReader(fileOpen)
+
+	for  {
+		line, err := reader.ReadString('\n')
+		if err == io.EOF {
+			break
+		}
+
+		line = strings.TrimSpace(line)
+		sites = append(sites, line)
+	}
+
+	fileOpen.Close()
+
+	return sites
 }

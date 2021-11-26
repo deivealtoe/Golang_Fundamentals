@@ -4,25 +4,19 @@ import (
 	"bufio"
 	"fmt"
 	"io"
+	"io/ioutil"
 	"net/http"
 	"os"
-	"time"
 	"strings"
+	"time"
 )
 
-const amountOfTry = 3
+const amountOfTries = 3
 const secondsToWaitBeforeNewTest = 4
 
 func main() {
 	for {
 		ShowMenu()
-
-		var sites [4]string
-		sites[0] = "https://random-status-code.herokuapp.com/"
-		sites[1] = "https://random-status-code.herokuapp.com/"
-		sites[2] = "https://random-status-code.herokuapp.com/"
-
-		fmt.Println(sites[3])
 
 		choice := ReadChoice()
 	
@@ -30,7 +24,7 @@ func main() {
 			case 1:
 				StartMonitor()
 			case 2:
-				fmt.Println("Logs...")
+				ShowLog()
 			case 0:
 				fmt.Println("See ya...")
 				os.Exit(0)
@@ -53,20 +47,20 @@ func ReadChoice() int {
 	var choice int
 	fmt.Scan(&choice)
 
-	fmt.Println("The choice was", choice)
-
 	return choice
 }
 
 func StartMonitor() {
 	fmt.Println("Starting...")
 
-	//sites := []string { "https://random-status-code.herokuapp.com/", "https://www.alura.com.br", "https://www.caelum.com.br" }
 	sites := ReadSitesFile();
 
 	for _, site := range(sites) {
-		for i := 0; i < amountOfTry; i++ {
-			fmt.Println(BuildMessage(site))
+		for i := 0; i < amountOfTries; i++ {
+			message := BuildMessage(site)
+			
+			fmt.Println(message)
+			LogResgistry(message)
 
 			time.Sleep(secondsToWaitBeforeNewTest * time.Second)
 		}
@@ -76,7 +70,7 @@ func StartMonitor() {
 func BuildMessage(site string) string {
 	siteStatusCode := GetSiteStatusCode(site)
 
-	var message string = "Testing site: " + site
+	var message string = time.Now().Format("02/01/2006 - 15:04:05") + " Testing site: " + site
 
 	message += ". " + GetTreatedMessage(siteStatusCode)
 
@@ -128,4 +122,26 @@ func ReadSitesFile() []string {
 	fileOpen.Close()
 
 	return sites
+}
+
+func LogResgistry(message string) {
+	file, err := os.OpenFile("log.txt", os.O_RDWR | os.O_CREATE | os.O_APPEND, 0666)
+	if err != nil {
+		fmt.Println("An error ocurred trying to open specified file", err)
+	}
+
+	file.WriteString(message + " - " + "\n")
+
+	file.Close()
+}
+
+func ShowLog() {
+	fmt.Println("Logs...")
+
+	file, err := ioutil.ReadFile("log.txt")
+	if err != nil {
+		fmt.Println("An error had ocurred trying to read file", err)
+	}
+
+	fmt.Println(string(file))
 }

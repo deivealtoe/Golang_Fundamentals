@@ -9,10 +9,11 @@ import (
 	"os"
 	"strings"
 	"time"
+	"strconv"
 )
 
-const amountOfTries = 3
-const secondsToWaitBeforeNewTest = 4
+const amountOfTries = 60
+const secondsToWaitBeforeNewTest = 1
 
 func main() {
 	for {
@@ -70,7 +71,7 @@ func StartMonitor() {
 func BuildMessage(site string) string {
 	siteStatusCode := GetSiteStatusCode(site)
 
-	var message string = time.Now().Format("02/01/2006 - 15:04:05") + " Testing site: " + site
+	var message string = time.Now().Format("02/01/2006 - 15:04:05") + " Testing site: " + site + " - Status Code Response: " + strconv.Itoa(siteStatusCode)
 
 	message += ". " + GetTreatedMessage(siteStatusCode)
 
@@ -90,7 +91,7 @@ func GetSiteStatusCode(site string) int {
 func GetTreatedMessage(responseStatusCode int) string {
 	var message string
 
-	if responseStatusCode == 200 {
+	if responseStatusCode >= 200 && responseStatusCode <= 299 {
 		message = "Success!"
 	} else {
 		message = "Fail!"

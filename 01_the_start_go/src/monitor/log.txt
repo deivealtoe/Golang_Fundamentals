@@ -1,24 +1,180 @@
-26/11/2021 - 11:02:48 Testing site: https://random-status-code.herokuapp.com/. Fail! - 
-26/11/2021 - 11:02:53 Testing site: https://random-status-code.herokuapp.com/. Fail! - 
-26/11/2021 - 11:02:58 Testing site: https://random-status-code.herokuapp.com/. Fail! - 
-26/11/2021 - 11:03:02 Testing site: https://www.alura.com.br. Success! - 
-26/11/2021 - 11:03:06 Testing site: https://www.alura.com.br. Success! - 
-26/11/2021 - 11:03:10 Testing site: https://www.alura.com.br. Success! - 
-26/11/2021 - 11:03:15 Testing site: https://www.caelum.com.br. Success! - 
-26/11/2021 - 11:03:19 Testing site: https://www.caelum.com.br. Success! - 
-26/11/2021 - 11:03:23 Testing site: https://www.caelum.com.br. Success! - 
-26/11/2021 - 11:03:28 Testing site: https://google.com.br. Success! - 
-26/11/2021 - 11:03:32 Testing site: https://google.com.br. Success! - 
-26/11/2021 - 11:03:37 Testing site: https://google.com.br. Success! - 
-26/11/2021 - 11:13:05 Testing site: https://random-status-code.herokuapp.com/. Fail! - 
-26/11/2021 - 11:13:10 Testing site: https://random-status-code.herokuapp.com/. Fail! - 
-26/11/2021 - 11:13:14 Testing site: https://random-status-code.herokuapp.com/. Fail! - 
-26/11/2021 - 11:13:19 Testing site: https://www.alura.com.br. Success! - 
-26/11/2021 - 11:13:23 Testing site: https://www.alura.com.br. Success! - 
-26/11/2021 - 11:13:27 Testing site: https://www.alura.com.br. Success! - 
-26/11/2021 - 11:13:32 Testing site: https://www.caelum.com.br. Success! - 
-26/11/2021 - 11:13:36 Testing site: https://www.caelum.com.br. Success! - 
-26/11/2021 - 11:13:40 Testing site: https://www.caelum.com.br. Success! - 
-26/11/2021 - 11:13:45 Testing site: https://google.com.br. Success! - 
-26/11/2021 - 11:13:50 Testing site: https://google.com.br. Success! - 
-26/11/2021 - 11:13:55 Testing site: https://google.com.br. Success! - 
+27/11/2021 - 13:55:30 Testing site: https://py-random-status-code.herokuapp.com/. Fail! - 
+27/11/2021 - 13:55:32 Testing site: https://py-random-status-code.herokuapp.com/. Fail! - 
+27/11/2021 - 13:55:33 Testing site: https://py-random-status-code.herokuapp.com/. Success! - 
+27/11/2021 - 13:55:35 Testing site: https://py-random-status-code.herokuapp.com/. Success! - 
+27/11/2021 - 13:55:37 Testing site: https://py-random-status-code.herokuapp.com/. Success! - 
+27/11/2021 - 13:55:39 Testing site: https://py-random-status-code.herokuapp.com/. Success! - 
+27/11/2021 - 13:55:40 Testing site: https://py-random-status-code.herokuapp.com/. Success! - 
+27/11/2021 - 13:55:42 Testing site: https://py-random-status-code.herokuapp.com/. Fail! - 
+27/11/2021 - 13:55:44 Testing site: https://py-random-status-code.herokuapp.com/. Fail! - 
+27/11/2021 - 13:55:45 Testing site: https://py-random-status-code.herokuapp.com/. Success! - 
+27/11/2021 - 13:55:47 Testing site: https://py-random-status-code.herokuapp.com/. Success! - 
+27/11/2021 - 13:55:48 Testing site: https://py-random-status-code.herokuapp.com/. Success! - 
+27/11/2021 - 13:55:50 Testing site: https://py-random-status-code.herokuapp.com/. Fail! - 
+27/11/2021 - 13:55:52 Testing site: https://py-random-status-code.herokuapp.com/. Success! - 
+27/11/2021 - 13:55:53 Testing site: https://py-random-status-code.herokuapp.com/. Success! - 
+27/11/2021 - 13:55:55 Testing site: https://py-random-status-code.herokuapp.com/. Fail! - 
+27/11/2021 - 13:55:56 Testing site: https://py-random-status-code.herokuapp.com/. Success! - 
+27/11/2021 - 13:55:58 Testing site: https://py-random-status-code.herokuapp.com/. Success! - 
+27/11/2021 - 13:56:00 Testing site: https://py-random-status-code.herokuapp.com/. Fail! - 
+27/11/2021 - 13:56:01 Testing site: https://py-random-status-code.herokuapp.com/. Fail! - 
+27/11/2021 - 13:56:03 Testing site: https://py-random-status-code.herokuapp.com/. Success! - 
+27/11/2021 - 13:56:05 Testing site: https://py-random-status-code.herokuapp.com/. Fail! - 
+27/11/2021 - 13:56:06 Testing site: https://py-random-status-code.herokuapp.com/. Success! - 
+27/11/2021 - 13:56:07 Testing site: https://py-random-status-code.herokuapp.com/. Fail! - 
+27/11/2021 - 13:56:09 Testing site: https://py-random-status-code.herokuapp.com/. Success! - 
+27/11/2021 - 13:56:11 Testing site: https://py-random-status-code.herokuapp.com/. Success! - 
+27/11/2021 - 13:56:12 Testing site: https://py-random-status-code.herokuapp.com/. Fail! - 
+27/11/2021 - 13:56:14 Testing site: https://py-random-status-code.herokuapp.com/. Success! - 
+27/11/2021 - 13:56:16 Testing site: https://py-random-status-code.herokuapp.com/. Fail! - 
+27/11/2021 - 13:56:17 Testing site: https://py-random-status-code.herokuapp.com/. Success! - 
+27/11/2021 - 13:56:19 Testing site: https://py-random-status-code.herokuapp.com/. Fail! - 
+27/11/2021 - 13:56:20 Testing site: https://py-random-status-code.herokuapp.com/. Fail! - 
+27/11/2021 - 13:56:22 Testing site: https://py-random-status-code.herokuapp.com/. Fail! - 
+27/11/2021 - 13:56:24 Testing site: https://py-random-status-code.herokuapp.com/. Fail! - 
+27/11/2021 - 13:56:25 Testing site: https://py-random-status-code.herokuapp.com/. Success! - 
+27/11/2021 - 13:56:27 Testing site: https://py-random-status-code.herokuapp.com/. Fail! - 
+27/11/2021 - 13:56:28 Testing site: https://py-random-status-code.herokuapp.com/. Fail! - 
+27/11/2021 - 13:56:30 Testing site: https://py-random-status-code.herokuapp.com/. Fail! - 
+27/11/2021 - 13:56:32 Testing site: https://py-random-status-code.herokuapp.com/. Success! - 
+27/11/2021 - 13:56:33 Testing site: https://py-random-status-code.herokuapp.com/. Fail! - 
+27/11/2021 - 13:56:35 Testing site: https://py-random-status-code.herokuapp.com/. Fail! - 
+27/11/2021 - 13:56:37 Testing site: https://py-random-status-code.herokuapp.com/. Success! - 
+27/11/2021 - 13:56:38 Testing site: https://py-random-status-code.herokuapp.com/. Fail! - 
+27/11/2021 - 13:56:40 Testing site: https://py-random-status-code.herokuapp.com/. Success! - 
+27/11/2021 - 13:56:41 Testing site: https://py-random-status-code.herokuapp.com/. Fail! - 
+27/11/2021 - 13:56:43 Testing site: https://py-random-status-code.herokuapp.com/. Success! - 
+27/11/2021 - 13:56:45 Testing site: https://py-random-status-code.herokuapp.com/. Success! - 
+27/11/2021 - 13:56:46 Testing site: https://py-random-status-code.herokuapp.com/. Success! - 
+27/11/2021 - 13:56:48 Testing site: https://py-random-status-code.herokuapp.com/. Success! - 
+27/11/2021 - 13:56:49 Testing site: https://py-random-status-code.herokuapp.com/. Fail! - 
+27/11/2021 - 13:56:51 Testing site: https://py-random-status-code.herokuapp.com/. Success! - 
+27/11/2021 - 13:56:53 Testing site: https://py-random-status-code.herokuapp.com/. Fail! - 
+27/11/2021 - 13:56:54 Testing site: https://py-random-status-code.herokuapp.com/. Fail! - 
+27/11/2021 - 13:56:56 Testing site: https://py-random-status-code.herokuapp.com/. Success! - 
+27/11/2021 - 13:56:57 Testing site: https://py-random-status-code.herokuapp.com/. Fail! - 
+27/11/2021 - 13:56:59 Testing site: https://py-random-status-code.herokuapp.com/. Success! - 
+27/11/2021 - 13:57:00 Testing site: https://py-random-status-code.herokuapp.com/. Fail! - 
+27/11/2021 - 13:57:02 Testing site: https://py-random-status-code.herokuapp.com/. Success! - 
+27/11/2021 - 13:57:04 Testing site: https://py-random-status-code.herokuapp.com/. Success! - 
+27/11/2021 - 13:57:05 Testing site: https://py-random-status-code.herokuapp.com/. Fail! - 
+27/11/2021 - 14:12:57 Testing site: https://py-random-status-code.herokuapp.com/. Fail! - 
+27/11/2021 - 14:12:59 Testing site: https://py-random-status-code.herokuapp.com/. Success! - 
+27/11/2021 - 14:13:01 Testing site: https://py-random-status-code.herokuapp.com/. Success! - 
+27/11/2021 - 14:13:02 Testing site: https://py-random-status-code.herokuapp.com/. Fail! - 
+27/11/2021 - 14:13:04 Testing site: https://py-random-status-code.herokuapp.com/. Fail! - 
+27/11/2021 - 14:13:06 Testing site: https://py-random-status-code.herokuapp.com/. Success! - 
+27/11/2021 - 14:13:07 Testing site: https://py-random-status-code.herokuapp.com/. Fail! - 
+27/11/2021 - 14:13:09 Testing site: https://py-random-status-code.herokuapp.com/. Fail! - 
+27/11/2021 - 14:13:11 Testing site: https://py-random-status-code.herokuapp.com/. Success! - 
+27/11/2021 - 14:13:12 Testing site: https://py-random-status-code.herokuapp.com/. Success! - 
+27/11/2021 - 14:13:14 Testing site: https://py-random-status-code.herokuapp.com/. Success! - 
+27/11/2021 - 14:13:15 Testing site: https://py-random-status-code.herokuapp.com/. Success! - 
+27/11/2021 - 14:13:17 Testing site: https://py-random-status-code.herokuapp.com/. Fail! - 
+27/11/2021 - 14:13:18 Testing site: https://py-random-status-code.herokuapp.com/. Fail! - 
+27/11/2021 - 14:13:20 Testing site: https://py-random-status-code.herokuapp.com/. Success! - 
+27/11/2021 - 14:13:22 Testing site: https://py-random-status-code.herokuapp.com/. Fail! - 
+27/11/2021 - 14:13:23 Testing site: https://py-random-status-code.herokuapp.com/. Fail! - 
+27/11/2021 - 14:13:25 Testing site: https://py-random-status-code.herokuapp.com/. Success! - 
+27/11/2021 - 14:13:27 Testing site: https://py-random-status-code.herokuapp.com/. Fail! - 
+27/11/2021 - 14:13:28 Testing site: https://py-random-status-code.herokuapp.com/. Success! - 
+27/11/2021 - 14:13:30 Testing site: https://py-random-status-code.herokuapp.com/. Success! - 
+27/11/2021 - 14:13:31 Testing site: https://py-random-status-code.herokuapp.com/. Success! - 
+27/11/2021 - 14:13:33 Testing site: https://py-random-status-code.herokuapp.com/. Fail! - 
+27/11/2021 - 14:13:35 Testing site: https://py-random-status-code.herokuapp.com/. Fail! - 
+27/11/2021 - 14:13:36 Testing site: https://py-random-status-code.herokuapp.com/. Success! - 
+27/11/2021 - 14:13:38 Testing site: https://py-random-status-code.herokuapp.com/. Fail! - 
+27/11/2021 - 14:13:39 Testing site: https://py-random-status-code.herokuapp.com/. Success! - 
+27/11/2021 - 14:13:41 Testing site: https://py-random-status-code.herokuapp.com/. Success! - 
+27/11/2021 - 14:13:43 Testing site: https://py-random-status-code.herokuapp.com/. Success! - 
+27/11/2021 - 14:13:44 Testing site: https://py-random-status-code.herokuapp.com/. Success! - 
+27/11/2021 - 14:13:46 Testing site: https://py-random-status-code.herokuapp.com/. Success! - 
+27/11/2021 - 14:13:47 Testing site: https://py-random-status-code.herokuapp.com/. Fail! - 
+27/11/2021 - 14:13:49 Testing site: https://py-random-status-code.herokuapp.com/. Success! - 
+27/11/2021 - 14:13:51 Testing site: https://py-random-status-code.herokuapp.com/. Success! - 
+27/11/2021 - 14:13:52 Testing site: https://py-random-status-code.herokuapp.com/. Fail! - 
+27/11/2021 - 14:13:54 Testing site: https://py-random-status-code.herokuapp.com/. Success! - 
+27/11/2021 - 14:13:56 Testing site: https://py-random-status-code.herokuapp.com/. Fail! - 
+27/11/2021 - 14:13:57 Testing site: https://py-random-status-code.herokuapp.com/. Success! - 
+27/11/2021 - 14:13:59 Testing site: https://py-random-status-code.herokuapp.com/. Fail! - 
+27/11/2021 - 14:14:00 Testing site: https://py-random-status-code.herokuapp.com/. Success! - 
+27/11/2021 - 14:14:02 Testing site: https://py-random-status-code.herokuapp.com/. Fail! - 
+27/11/2021 - 14:14:04 Testing site: https://py-random-status-code.herokuapp.com/. Success! - 
+27/11/2021 - 14:14:05 Testing site: https://py-random-status-code.herokuapp.com/. Success! - 
+27/11/2021 - 14:14:07 Testing site: https://py-random-status-code.herokuapp.com/. Success! - 
+27/11/2021 - 14:14:08 Testing site: https://py-random-status-code.herokuapp.com/. Fail! - 
+27/11/2021 - 14:14:10 Testing site: https://py-random-status-code.herokuapp.com/. Success! - 
+27/11/2021 - 14:14:12 Testing site: https://py-random-status-code.herokuapp.com/. Success! - 
+27/11/2021 - 14:14:13 Testing site: https://py-random-status-code.herokuapp.com/. Fail! - 
+27/11/2021 - 14:14:15 Testing site: https://py-random-status-code.herokuapp.com/. Fail! - 
+27/11/2021 - 14:14:17 Testing site: https://py-random-status-code.herokuapp.com/. Fail! - 
+27/11/2021 - 14:14:19 Testing site: https://py-random-status-code.herokuapp.com/. Fail! - 
+27/11/2021 - 14:14:20 Testing site: https://py-random-status-code.herokuapp.com/. Success! - 
+27/11/2021 - 14:14:22 Testing site: https://py-random-status-code.herokuapp.com/. Success! - 
+27/11/2021 - 14:14:23 Testing site: https://py-random-status-code.herokuapp.com/. Success! - 
+27/11/2021 - 14:14:25 Testing site: https://py-random-status-code.herokuapp.com/. Success! - 
+27/11/2021 - 14:14:26 Testing site: https://py-random-status-code.herokuapp.com/. Fail! - 
+27/11/2021 - 14:14:28 Testing site: https://py-random-status-code.herokuapp.com/. Success! - 
+27/11/2021 - 14:14:30 Testing site: https://py-random-status-code.herokuapp.com/. Success! - 
+27/11/2021 - 14:14:31 Testing site: https://py-random-status-code.herokuapp.com/. Fail! - 
+27/11/2021 - 14:14:33 Testing site: https://py-random-status-code.herokuapp.com/. Success! - 
+27/11/2021 - 14:20:31 Testing site: https://py-random-status-code.herokuapp.com/ - Status Code Response: 400. Fail! - 
+27/11/2021 - 14:20:33 Testing site: https://py-random-status-code.herokuapp.com/ - Status Code Response: 401. Fail! - 
+27/11/2021 - 14:20:34 Testing site: https://py-random-status-code.herokuapp.com/ - Status Code Response: 501. Fail! - 
+27/11/2021 - 14:20:36 Testing site: https://py-random-status-code.herokuapp.com/ - Status Code Response: 403. Fail! - 
+27/11/2021 - 14:20:38 Testing site: https://py-random-status-code.herokuapp.com/ - Status Code Response: 203. Success! - 
+27/11/2021 - 14:20:39 Testing site: https://py-random-status-code.herokuapp.com/ - Status Code Response: 501. Fail! - 
+27/11/2021 - 14:20:41 Testing site: https://py-random-status-code.herokuapp.com/ - Status Code Response: 202. Success! - 
+27/11/2021 - 14:20:43 Testing site: https://py-random-status-code.herokuapp.com/ - Status Code Response: 205. Success! - 
+27/11/2021 - 14:20:44 Testing site: https://py-random-status-code.herokuapp.com/ - Status Code Response: 401. Fail! - 
+27/11/2021 - 14:20:46 Testing site: https://py-random-status-code.herokuapp.com/ - Status Code Response: 500. Fail! - 
+27/11/2021 - 14:20:47 Testing site: https://py-random-status-code.herokuapp.com/ - Status Code Response: 205. Success! - 
+27/11/2021 - 14:20:49 Testing site: https://py-random-status-code.herokuapp.com/ - Status Code Response: 404. Fail! - 
+27/11/2021 - 14:20:51 Testing site: https://py-random-status-code.herokuapp.com/ - Status Code Response: 200. Success! - 
+27/11/2021 - 14:20:52 Testing site: https://py-random-status-code.herokuapp.com/ - Status Code Response: 207. Success! - 
+27/11/2021 - 14:20:54 Testing site: https://py-random-status-code.herokuapp.com/ - Status Code Response: 101. Fail! - 
+27/11/2021 - 14:20:56 Testing site: https://py-random-status-code.herokuapp.com/ - Status Code Response: 205. Success! - 
+27/11/2021 - 14:20:57 Testing site: https://py-random-status-code.herokuapp.com/ - Status Code Response: 206. Success! - 
+27/11/2021 - 14:20:59 Testing site: https://py-random-status-code.herokuapp.com/ - Status Code Response: 206. Success! - 
+27/11/2021 - 14:21:01 Testing site: https://py-random-status-code.herokuapp.com/ - Status Code Response: 500. Fail! - 
+27/11/2021 - 14:21:02 Testing site: https://py-random-status-code.herokuapp.com/ - Status Code Response: 207. Success! - 
+27/11/2021 - 14:21:04 Testing site: https://py-random-status-code.herokuapp.com/ - Status Code Response: 101. Fail! - 
+27/11/2021 - 14:21:05 Testing site: https://py-random-status-code.herokuapp.com/ - Status Code Response: 300. Fail! - 
+27/11/2021 - 14:21:07 Testing site: https://py-random-status-code.herokuapp.com/ - Status Code Response: 204. Success! - 
+27/11/2021 - 14:21:08 Testing site: https://py-random-status-code.herokuapp.com/ - Status Code Response: 202. Success! - 
+27/11/2021 - 14:21:10 Testing site: https://py-random-status-code.herokuapp.com/ - Status Code Response: 202. Success! - 
+27/11/2021 - 14:21:11 Testing site: https://py-random-status-code.herokuapp.com/ - Status Code Response: 101. Fail! - 
+27/11/2021 - 14:21:13 Testing site: https://py-random-status-code.herokuapp.com/ - Status Code Response: 401. Fail! - 
+27/11/2021 - 14:21:15 Testing site: https://py-random-status-code.herokuapp.com/ - Status Code Response: 300. Fail! - 
+27/11/2021 - 14:21:16 Testing site: https://py-random-status-code.herokuapp.com/ - Status Code Response: 404. Fail! - 
+27/11/2021 - 14:21:18 Testing site: https://py-random-status-code.herokuapp.com/ - Status Code Response: 101. Fail! - 
+27/11/2021 - 14:21:20 Testing site: https://py-random-status-code.herokuapp.com/ - Status Code Response: 101. Fail! - 
+27/11/2021 - 14:21:21 Testing site: https://py-random-status-code.herokuapp.com/ - Status Code Response: 204. Success! - 
+27/11/2021 - 14:21:22 Testing site: https://py-random-status-code.herokuapp.com/ - Status Code Response: 401. Fail! - 
+27/11/2021 - 14:21:24 Testing site: https://py-random-status-code.herokuapp.com/ - Status Code Response: 208. Success! - 
+27/11/2021 - 14:21:26 Testing site: https://py-random-status-code.herokuapp.com/ - Status Code Response: 101. Fail! - 
+27/11/2021 - 14:21:27 Testing site: https://py-random-status-code.herokuapp.com/ - Status Code Response: 203. Success! - 
+27/11/2021 - 14:21:29 Testing site: https://py-random-status-code.herokuapp.com/ - Status Code Response: 205. Success! - 
+27/11/2021 - 14:21:31 Testing site: https://py-random-status-code.herokuapp.com/ - Status Code Response: 200. Success! - 
+27/11/2021 - 14:21:32 Testing site: https://py-random-status-code.herokuapp.com/ - Status Code Response: 203. Success! - 
+27/11/2021 - 14:21:34 Testing site: https://py-random-status-code.herokuapp.com/ - Status Code Response: 501. Fail! - 
+27/11/2021 - 14:21:35 Testing site: https://py-random-status-code.herokuapp.com/ - Status Code Response: 201. Success! - 
+27/11/2021 - 14:21:37 Testing site: https://py-random-status-code.herokuapp.com/ - Status Code Response: 101. Fail! - 
+27/11/2021 - 14:21:39 Testing site: https://py-random-status-code.herokuapp.com/ - Status Code Response: 404. Fail! - 
+27/11/2021 - 14:21:40 Testing site: https://py-random-status-code.herokuapp.com/ - Status Code Response: 206. Success! - 
+27/11/2021 - 14:21:42 Testing site: https://py-random-status-code.herokuapp.com/ - Status Code Response: 401. Fail! - 
+27/11/2021 - 14:21:44 Testing site: https://py-random-status-code.herokuapp.com/ - Status Code Response: 101. Fail! - 
+27/11/2021 - 14:21:45 Testing site: https://py-random-status-code.herokuapp.com/ - Status Code Response: 203. Success! - 
+27/11/2021 - 14:21:47 Testing site: https://py-random-status-code.herokuapp.com/ - Status Code Response: 400. Fail! - 
+27/11/2021 - 14:21:49 Testing site: https://py-random-status-code.herokuapp.com/ - Status Code Response: 400. Fail! - 
+27/11/2021 - 14:21:50 Testing site: https://py-random-status-code.herokuapp.com/ - Status Code Response: 204. Success! - 
+27/11/2021 - 14:21:51 Testing site: https://py-random-status-code.herokuapp.com/ - Status Code Response: 101. Fail! - 
+27/11/2021 - 14:21:53 Testing site: https://py-random-status-code.herokuapp.com/ - Status Code Response: 204. Success! - 
+27/11/2021 - 14:21:54 Testing site: https://py-random-status-code.herokuapp.com/ - Status Code Response: 403. Fail! - 
+27/11/2021 - 14:21:56 Testing site: https://py-random-status-code.herokuapp.com/ - Status Code Response: 403. Fail! - 
+27/11/2021 - 14:21:57 Testing site: https://py-random-status-code.herokuapp.com/ - Status Code Response: 206. Success! - 
+27/11/2021 - 14:21:59 Testing site: https://py-random-status-code.herokuapp.com/ - Status Code Response: 201. Success! - 
+27/11/2021 - 14:22:00 Testing site: https://py-random-status-code.herokuapp.com/ - Status Code Response: 207. Success! - 
+27/11/2021 - 14:22:02 Testing site: https://py-random-status-code.herokuapp.com/ - Status Code Response: 208. Success! - 
+27/11/2021 - 14:22:04 Testing site: https://py-random-status-code.herokuapp.com/ - Status Code Response: 500. Fail! - 
+27/11/2021 - 14:22:05 Testing site: https://py-random-status-code.herokuapp.com/ - Status Code Response: 207. Success! - 

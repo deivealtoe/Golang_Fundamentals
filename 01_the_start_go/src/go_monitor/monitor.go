@@ -56,8 +56,8 @@ func StartMonitor() {
 
 	sites := ReadSitesFile();
 
-	for _, site := range(sites) {
-		for i := 0; i < amountOfTries; i++ {
+	for i := 0; i < amountOfTries; i++ {
+		for _, site := range(sites) {	
 			message := BuildMessage(site)
 			
 			fmt.Println(message)

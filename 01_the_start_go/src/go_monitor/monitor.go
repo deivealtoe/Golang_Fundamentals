@@ -73,7 +73,7 @@ func BuildMessage(site string) string {
 
 	var message string = time.Now().Format("02/01/2006 - 15:04:05") + " Testing site: " + site + " - Status Code Response: " + strconv.Itoa(siteStatusCode)
 
-	message += ". " + GetTreatedMessage(siteStatusCode)
+	message += ". " + GetSuccessOrFail(siteStatusCode)
 
 	return message
 }
@@ -88,7 +88,7 @@ func GetSiteStatusCode(site string) int {
 	return response.StatusCode
 }
 
-func GetTreatedMessage(responseStatusCode int) string {
+func GetSuccessOrFail(responseStatusCode int) string {
 	var message string
 
 	if responseStatusCode >= 200 && responseStatusCode <= 299 {
@@ -103,12 +103,12 @@ func GetTreatedMessage(responseStatusCode int) string {
 func ReadSitesFile() []string {
 	var sites []string
 
-	fileOpen, err := os.Open("sites.txt")
+	sitesFile, err := os.Open("sites.txt")
 	if err != nil {
-		fmt.Println("An error occurred trying to open specified file", err)
+		fmt.Println("An error occurred trying to read sites file")
 	}
 
-	reader := bufio.NewReader(fileOpen)
+	reader := bufio.NewReader(sitesFile)
 
 	for  {
 		line, err := reader.ReadString('\n')
@@ -120,20 +120,20 @@ func ReadSitesFile() []string {
 		sites = append(sites, line)
 	}
 
-	fileOpen.Close()
+	sitesFile.Close()
 
 	return sites
 }
 
 func LogResgistry(message string) {
-	file, err := os.OpenFile("log.txt", os.O_RDWR | os.O_CREATE | os.O_APPEND, 0666)
+	logFile, err := os.OpenFile("log.txt", os.O_RDWR | os.O_CREATE | os.O_APPEND, 0666)
 	if err != nil {
-		fmt.Println("An error ocurred trying to open specified file", err)
+		fmt.Println("An error ocurred trying to write into log file")
 	}
 
-	file.WriteString(message + " - " + "\n")
+	logFile.WriteString(message + " - " + "\n")
 
-	file.Close()
+	logFile.Close()
 }
 
 func ShowLog() {
@@ -141,7 +141,7 @@ func ShowLog() {
 
 	file, err := ioutil.ReadFile("log.txt")
 	if err != nil {
-		fmt.Println("An error had ocurred trying to read file", err)
+		fmt.Println("An error had ocurred trying to read log file")
 	}
 
 	fmt.Println(string(file))

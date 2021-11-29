@@ -12,7 +12,7 @@ import (
 	"strconv"
 )
 
-const amountOfTries = 60
+const amountOfTries = 3
 const secondsToWaitBeforeNewTest = 1
 
 func main() {

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Go - Static Web Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <h1 class="row justify-content-center">Hello, World! From Go!</h1>
+
+        <div class="card">
+            <div class="card-body">
+                <p>O módulo <mark>net/http</mark> é responsável por nos fornecer os métodos de mapeamento e gerenciamento de requisições e o pacote main será responsável por nos prover as funções para manter a aplicação de pé!</p>
+            </div>
+
+            <div class="card-body">
+                <p>A função <mark>main</mark>, como nos clássicos programas em C, será o ponto de partida da execução do programa.</p>
+            </div>
+
+            <div class="card-body">
+                <p>Dentro do <mark>main</mark>, utilizaremos as funções do pacote <mark>net/http</mark>.</p>
+            </div>
+
+            <div class="card-body">
+                <p>Uma função bem interessante do pacote para subir a aplicação é a <mark>ListenAndServe</mark>, ela é responsável por especificar em qual porta rodará a aplicação e como lidar com o servidor da aplicação.</p>
+            </div>
+
+            <div class="card-body">
+                <p>Para lidar com as requisições, é preciso utilizar um outro método do pacote <mark>net/http</mark> dentro da função <mark>main</mark>, o <mark>HandleFunc</mark>.</p>
+            </div>
+
+            <div class="card-body">
+                <p>Como será responsável por lidar com as requisições e respostas do servidor, a função handler deve receber dois parâmetros, um do tipo <mark>http.ResponseWriter</mark> e outro do tipo <mark>*http.Request</mark>.</p>
+            </div>
+
+            <div class="card-body">
+                <p>Para finalmente o servidor servir a página estática, a função <mark>http.ServeFile</mark> pode ser usada.</p>
+            </div>
+
+            <div class="card-body">
+                <p>O <mark>http.ServeFile</mark> é responsável por dispor um arquivo, ou seja, servir uma página web utilizando as variáveis responsáveis por escrever a resposta <mark>http</mark> e também o <mark>request</mark>.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
